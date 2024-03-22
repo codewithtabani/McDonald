@@ -1,0 +1,33 @@
+#table1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+table a{
+    color: white;
+}
+.th1{
+    font-size: 50px;
+    color: green;
+}
+
+.th2{
+    font-size: 30px;
+    color: red;
+}
+table tr td{
+    text-align: center;
+}
+.inp1{
+    width: 400px;
+    height: 35px;
+    background-color: aqua;
+}
+legend{
+    font-size: 30px;
+    color: green;
+}
+label{
+    font-size: 20px;
+    color: red;
+}   

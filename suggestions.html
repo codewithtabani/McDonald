@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggestions</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <table width="100%" id="table1">
+        <thead>
+        <tr class="row">
+            <th>
+                <a href="index.html" target="_blank">                    
+                    <img src="images/McDonalds_Logo-removebg-preview.png" alt="" width="60px">
+                </a>
+            </th>
+            <th><a href="index.html" style="color: red;" target="_blank">Macdonald</a></th>
+            <th><a href="index.html" target="_blank">Home</a></th>
+            <th><a href="about.html" target="_blank">About Us</a></th>
+            <th><a href="menu.html" target="_blank">Menu</a></th>
+            <th><a href="contact.html" target="_blank">Contact Us</a></th>
+            <th><a href="mailto:mudassirtabani@gmail.com" target="_blank">Email Us</a></th>
+            <th><a href="tel:+92 323 3211789 text=How can i help You?" target="_blank">
+                <img src="images/whatsapp.png" alt="loading..."  width="60px">
+            </a></th>
+        </tr>
+    </thead>
+</table>
+
+<br>
+
+<h1 style="text-align: center;color: red;font-size: 40px;">Suggestions Form</h1>
+
+<p style="font-size: 20px;text-align: center;">Have some restaurant feedback about your recent McDonald’s visit? Tell us what you loved, or file a complaint in the form below so we can make your experience better next time.</p>
+
+
+<form style="text-align: center;">
+    <h1>Please select a Restaurant</h1>
+<p>Select your city and search your area</p>
+<br>
+<input list="City-option" id="City-choice" name="City-choice" class="inp1" placeholder="Select City">
+<datalist id="City-option">
+    <option value="Select your City" disabled selected>
+    <option value="Karachi">
+    <option value="Lahore">
+    <option value="Islamabad">
+    <option value="Peshawar">
+    <option value="Quetta">
+    <option value="Rawalpindi">
+    <option value="Bahawalpur">
+    <option value="Multan">
+    <option value="Sialkot">
+    <option value="Gujrat">
+    <option value="Hyderabad">
+    <option value="Faisalabad">
+</datalist>
+
+&nbsp &nbsp &nbsp 
+&nbsp 
+<input type="text" name="Restaurant" id=""  class="inp1" placeholder="Select Restaurant">
+
+<br><br><br><br><br>
+
+<fieldset>
+    <legend>Tell us about yourself</legend>
+    <br><br><br><br><br>
+
+    <label for="Fname">Full Name</label>
+    <br>
+    <input type="text" name="Full Name" id="Fname" class="inp1" placeholder="Full Name">
+
+    <br><br>
+
+    <label for="email">Email Address
+        <br>
+        <input type="email" name="Email" id="email" class="inp1" placeholder="Email Address">
+    </label>
+
+    <br><br>
+
+    <label for="Phone">Phone Number
+        <br>
+        <input type="number" name="Phone Number" id="Phone" placeholder="Phone Number" class="inp1" required>
+    </label>
+
+    <br><br><br>
+
+    <fieldset>
+        <legend>Give us your feedback</legend>
+        <br>
+        <label for="Comments">
+            <br>
+        <textarea name="Comments" id="Comments" cols="50" rows="10" maxlength="200" style="background-color: aqua;">
+            Enter Your comments (200 characters)
+        </textarea>
+    </label>
+    </fieldset>
+
+
+
+</fieldset>
+
+<br><br>
+
+<a href="thanks.html"><input type="button" name="" value="Submit" id="" style="background-color: orange;height:35px;width: 150px;"></a>
+
+</form>
+
