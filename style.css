@@ -5,7 +5,20 @@
 }
 table a{
     color: white;
+    text-decoration: none;
 }
+table a:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+.img1:hover{
+    border: none;
+}
+.img1 img:hover{
+    border: 1px solid white;
+    padding: 5px;
+}
+
 .th1{
     font-size: 50px;
     color: green;
@@ -30,4 +43,15 @@ legend{
 label{
     font-size: 20px;
     color: red;
-}   
+}
+.td2{
+    line-height: 30px;
+    word-spacing: 5px;
+    letter-spacing: 1.2 px;
+    color: blueviolet;
+    text-align: justify;    
+}  
+#ntable{
+    border: 1px solid green;
+    height: 1130px;
+}
